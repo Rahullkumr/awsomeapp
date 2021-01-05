@@ -14,8 +14,22 @@ class HomePage extends StatelessWidget {
           title: Text('Awsome App'),
           centerTitle: true,
         ),
-        body: Container(
-          child: Center(child: Text('helllo')),
+        body: Center(
+          child: Container(
+            width: 200,
+            height: 200,
+            decoration: BoxDecoration(e
+              color: Colors.teal,
+              shape: BoxShape.circle,
+              gradient: LinearGradient(colors: [
+                Colors.pink,
+                Colors.yellow,
+              ]),
+            ),
+            padding: EdgeInsets.all(8),
+            alignment: Alignment.center,
+            child: Text("I am a box"),
+          ),
         ),
       ),
     );
