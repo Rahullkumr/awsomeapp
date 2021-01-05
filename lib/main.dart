@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
           child: Container(
             width: 200,
             height: 200,
-            decoration: BoxDecoration(e
+            decoration: BoxDecoration(
               color: Colors.teal,
               shape: BoxShape.circle,
               gradient: LinearGradient(colors: [
